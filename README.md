@@ -100,8 +100,8 @@ An extension to get top 10 statistics for Despical's minigame plugins.<br>
 %mmlb_top_scorer_name__1%  -> Top scorer's name.
 %mmlb_top_scorer_value_1%  -> Top scorer's score.
 
-%mm_top_games_name_1%      -> Name of the player that played most games.
-%mm_top_games_value_1%     -> Game amount of player that played most games.
+%mmlb_top_games_name_1%      -> Name of the player that played most games.
+%mmlb_top_games_value_1%     -> Game amount of player that played most games.
 ```
 </details>
 
