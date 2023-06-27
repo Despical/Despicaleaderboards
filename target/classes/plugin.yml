@@ -1,0 +1,7 @@
+name: Despicaleaderboards
+author: Despical
+version: 1.0.0
+api-version: 1.13
+main: me.despical.leaderboards.Main
+depend: [ PlaceholderAPI ]
+softdepend: [ KOTL, OITC, TNTRun, WhackMe, MurderMystery ]
