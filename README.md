@@ -6,7 +6,7 @@ Index starts from 1 and goes to 10. Replace the numbers with top positions.
 
 ## Leaderboard Placeholders
 
-### KOTL Leaderboard
+* ### KOTL Leaderboard
 <details>
 <summary>Click to see placeholders for KOTL plugin.</summary>
 
@@ -17,9 +17,9 @@ Index starts from 1 and goes to 10. Replace the numbers with top positions.
 %kotlb_top_games_name_1%   -> Name of the player that played most games.
 %kotlb_top_games_value_1%  -> Game amount of player that played most games.
 ```
-</details>
+</details><br>
 
-### OITC Leaderboard
+* ### OITC Leaderboard
 <details>
 <summary>Click to see placeholders for OITC plugin.</summary>
 
@@ -42,9 +42,9 @@ Index starts from 1 and goes to 10. Replace the numbers with top positions.
 %oitclb_top_games_name_1%    -> Name of the player that played most games.
 %oitclb_top_games_value_1%   -> Game amount of player that played most games.
 ```
-</details>
+</details><br>
 
-### TNT Run Leaderboard
+* ### TNT Run Leaderboard
 <details>
 <summary>Click to see placeholders for TNT Run plugin.</summary>
 
@@ -64,9 +64,9 @@ Index starts from 1 and goes to 10. Replace the numbers with top positions.
 %trlb_top_survive_name_1%  -> Top players' name based on longest plays. 
 %trlb_top_survive_value_1% -> Top players' longest survive time in "mm:ss" format.
 ```
-</details>
+</details><br>
 
-### Whack Me Leaderboard
+* ### Whack Me Leaderboard
 <details>
 <summary>Click to see placeholders for Whack Me plugin.</summary>
 
@@ -77,9 +77,9 @@ Index starts from 1 and goes to 10. Replace the numbers with top positions.
 %wmlb_top_games_name_1%   -> Name of the player that played most games.
 %wmlb_top_games_value_1%  -> Game amount of player that played most games.
 ```
-</details>
+</details><br>
 
-### Murder Mystery Leaderboard
+* ### Murder Mystery Leaderboard
 <details>
 <summary>Click to see placeholders for Murder Mystery plugin.</summary>
 
