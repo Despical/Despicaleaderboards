@@ -18,7 +18,7 @@ An extension to get top 10 statistics for Despical's minigame plugins.<br>
 %kotlb_top_games_name_1%   -> Name of the player that played most games.
 %kotlb_top_games_value_1%  -> Game amount of player that played most games.
 ```
-</details><br>
+</details>
 
 * ### OITC Leaderboard
 <details>
@@ -43,7 +43,7 @@ An extension to get top 10 statistics for Despical's minigame plugins.<br>
 %oitclb_top_games_name_1%    -> Name of the player that played most games.
 %oitclb_top_games_value_1%   -> Game amount of player that played most games.
 ```
-</details><br>
+</details>
 
 * ### TNT Run Leaderboard
 <details>
@@ -65,7 +65,7 @@ An extension to get top 10 statistics for Despical's minigame plugins.<br>
 %trlb_top_survive_name_1%  -> Top players' name based on longest plays. 
 %trlb_top_survive_value_1% -> Top players' longest survive time in "mm:ss" format.
 ```
-</details><br>
+</details>
 
 * ### Whack Me Leaderboard
 <details>
@@ -78,7 +78,7 @@ An extension to get top 10 statistics for Despical's minigame plugins.<br>
 %wmlb_top_games_name_1%   -> Name of the player that played most games.
 %wmlb_top_games_value_1%  -> Game amount of player that played most games.
 ```
-</details><br>
+</details>
 
 * ### Murder Mystery Leaderboard
 <details>
