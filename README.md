@@ -1,8 +1,9 @@
 # Despicaleaderboards
-An extension to get top 10 statistics for Despical's minigame plugins
+An extension to get top 10 statistics for Despical's minigame plugins.<br>
 
-To access placeholders download PlaceholderAPI plugin.<br>
-Index starts from 1 and goes to 10. Replace the numbers with top positions.
+> **Note** This plugin depends on PlaceholderAPI plugin.
+
+> **Warning** Index starts from 1 and goes to 10. Replace the numbers with top positions.
 
 ## Leaderboard Placeholders
 
