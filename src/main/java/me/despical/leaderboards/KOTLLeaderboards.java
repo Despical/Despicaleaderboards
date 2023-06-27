@@ -16,7 +16,7 @@ import java.util.UUID;
 public class KOTLLeaderboards extends Leaderboard {
 
     public KOTLLeaderboards(Main plugin) {
-        super(plugin, "kotllb");
+        super(plugin, "kotlb");
     }
 
     @Override
@@ -33,8 +33,8 @@ public class KOTLLeaderboards extends Leaderboard {
             }
         }
 
-        if (id.contains("tours_player")) {
-            return handlePlaceholderRequest(id, "top_tours_player_name_", "top_tours_player_value_", subId, StatsStorage.StatisticType.TOURS_PLAYED);
+        if (id.contains("games")) {
+            return handlePlaceholderRequest(id, "top_games_name_", "top_games_value_", subId, StatsStorage.StatisticType.TOURS_PLAYED);
         }
 
         return null;

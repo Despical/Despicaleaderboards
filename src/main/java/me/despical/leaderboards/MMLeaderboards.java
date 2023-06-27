@@ -41,8 +41,8 @@ public class MMLeaderboards extends Leaderboard {
             }
         }
 
-        if (id.contains("games_player")) {
-            final String request = handlePlaceholderRequest(id, "top_games_player_name_", "top_games_player_value_", subId, StatsStorage.StatisticType.GAMES_PLAYED);
+        if (id.contains("games")) {
+            final String request = handlePlaceholderRequest(id, "top_games_name_", "top_games_value_", subId, StatsStorage.StatisticType.GAMES_PLAYED);
 
             if (request != null) {
                 return request;
@@ -65,8 +65,8 @@ public class MMLeaderboards extends Leaderboard {
             }
         }
 
-        if (id.contains("highest_scorer")) {
-            return handlePlaceholderRequest(id, "top_highest_scorer_name_", "top_highest_scorer_value_", subId, StatsStorage.StatisticType.HIGHEST_SCORE);
+        if (id.contains("scorer")) {
+            return handlePlaceholderRequest(id, "top_scorer_name_", "top_scorer_value_", subId, StatsStorage.StatisticType.HIGHEST_SCORE);
         }
 
         return null;

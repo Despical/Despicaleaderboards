@@ -25,16 +25,16 @@ public class WMLeaderboards extends Leaderboard {
 
         final int subId = NumberUtils.getInt(id.substring(id.lastIndexOf('_') + 1));
 
-        if (id.contains("record_scorer")) {
-            final String request = handlePlaceholderRequest(id, "top_record_scorer_name_", "top_record_scorer_value_", subId, StatsStorage.StatisticType.RECORD_SCORE);
+        if (id.contains("scorer")) {
+            final String request = handlePlaceholderRequest(id, "top_scorer_name_", "top_scorer_value_", subId, StatsStorage.StatisticType.RECORD_SCORE);
 
             if (request != null) {
                 return request;
             }
         }
 
-        if (id.contains("tours_player")) {
-            return handlePlaceholderRequest(id, "top_tours_player_name_", "top_tours_player_value_", subId, StatsStorage.StatisticType.TOURS_PLAYED);
+        if (id.contains("games")) {
+            return handlePlaceholderRequest(id, "top_games_name_", "top_games_value_", subId, StatsStorage.StatisticType.TOURS_PLAYED);
         }
 
         return null;

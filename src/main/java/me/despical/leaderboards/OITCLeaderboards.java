@@ -49,16 +49,16 @@ public class OITCLeaderboards extends Leaderboard {
             }
         }
 
-        if (id.contains("games_played")) {
-            final String request = handlePlaceholderRequest(id, "top_games_played_name_", "top_games_played_value_", subId, StatsStorage.StatisticType.GAMES_PLAYED);
+        if (id.contains("games")) {
+            final String request = handlePlaceholderRequest(id, "top_games_name_", "top_games_value_", subId, StatsStorage.StatisticType.GAMES_PLAYED);
 
             if (request != null) {
                 return request;
             }
         }
 
-        if (id.contains("highest_score")) {
-            final String request = handlePlaceholderRequest(id, "top_highest_score_name_", "top_highest_score_value_", subId, StatsStorage.StatisticType.HIGHEST_SCORE);
+        if (id.contains("highest")) {
+            final String request = handlePlaceholderRequest(id, "top_highest_name_", "top_highest_value_", subId, StatsStorage.StatisticType.HIGHEST_SCORE);
 
             if (request != null) {
                 return request;

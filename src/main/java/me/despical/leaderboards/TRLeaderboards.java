@@ -42,8 +42,8 @@ public class TRLeaderboards extends Leaderboard {
             }
         }
 
-        if (id.contains("games_player")) {
-            final String request = handlePlaceholderRequest(id, "top_games_player_name_", "top_games_player_value_", subId, StatsStorage.StatisticType.GAMES_PLAYED);
+        if (id.contains("games")) {
+            final String request = handlePlaceholderRequest(id, "top_games_name_", "top_games_value_", subId, StatsStorage.StatisticType.GAMES_PLAYED);
 
             if (request != null) {
                 return request;
@@ -58,8 +58,8 @@ public class TRLeaderboards extends Leaderboard {
             }
         }
 
-        if (id.contains("longest_survive")) {
-            return handlePlaceholderRequest(id, "top_longest_survive_name_", "top_longest_survive_value_", subId, StatsStorage.StatisticType.LONGEST_SURVIVE, true);
+        if (id.contains("survive")) {
+            return handlePlaceholderRequest(id, "top_survive_name_", "top_survive_value_", subId, StatsStorage.StatisticType.LONGEST_SURVIVE, true);
         }
 
         return null;
