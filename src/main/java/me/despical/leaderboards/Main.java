@@ -27,7 +27,7 @@ public class Main extends JavaPlugin {
 
                     foundDependencies.add(dependency);
                 } catch (Exception e) {
-                    getLogger().severe("Something went wrong while we're initializing our PAPI extension.");
+                    getLogger().severe("Something went wrong while we were initializing our PAPI extension.");
                 }
             }
         }
