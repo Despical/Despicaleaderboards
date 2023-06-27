@@ -104,3 +104,8 @@ An extension to get top 10 statistics for Despical's minigame plugins.<br>
 %mm_top_games_value_1%     -> Game amount of player that played most games.
 ```
 </details>
+
+## License
+This code is under [GPL-3.0 License](http://www.gnu.org/licenses/gpl-3.0.html)
+
+See the [LICENSE](https://github.com/Despical/Despicaleaderboards/blob/main/LICENSE) file for required notices and attributions.
