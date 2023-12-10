@@ -33,6 +33,22 @@ public class WMLeaderboards extends Leaderboard {
             }
         }
 
+        if (id.contains("minus_blocks")) {
+            final String request = handlePlaceholderRequest(id, "top_minus_blocks_name_", "top_minus_blocks_value_", subId, StatsStorage.StatisticType.MINUS_BLOCKS);
+
+            if (request != null) {
+                return request;
+            }
+        }
+
+        if (id.contains("plus_blocks")) {
+            final String request = handlePlaceholderRequest(id, "top_plus_blocks_name_", "top_plus_blocks_value_", subId, StatsStorage.StatisticType.PLUS_BLOCKS);
+
+            if (request != null) {
+                return request;
+            }
+        }
+
         if (id.contains("games")) {
             return handlePlaceholderRequest(id, "top_games_name_", "top_games_value_", subId, StatsStorage.StatisticType.TOURS_PLAYED);
         }
