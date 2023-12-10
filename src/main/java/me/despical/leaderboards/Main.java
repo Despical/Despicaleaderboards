@@ -21,6 +21,7 @@ public class Main extends JavaPlugin {
 
         for (int i = 0; i < 5; i++) {
             final String dependency = dependencies[i];
+
             if (getServer().getPluginManager().isPluginEnabled(dependency)) {
                 try {
                     leaderboards[i].getConstructor(Main.class).newInstance(this);
