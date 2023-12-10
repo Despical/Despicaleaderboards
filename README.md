@@ -72,11 +72,17 @@ An extension to get top 10 statistics for Despical's minigame plugins.<br>
 <summary>Click to see placeholders for Whack Me plugin.</summary>
 
 ```
-%wmlb_top_scorer_name_1%, -> Top scorer's name. 
-%wmlb_top_scorer_value_1% -> Top scorer's score.
+%wmlb_top_scorer_name_1%,       -> Top scorer's name. 
+%wmlb_top_scorer_value_1%       -> Top scorer's score.
 
-%wmlb_top_games_name_1%   -> Name of the player that played most games.
-%wmlb_top_games_value_1%  -> Game amount of player that played most games.
+%wmlb_top_plus_blocks_name_1%,  -> Top plus block clicker's name. 
+%wmlb_top_plus_blocks_value_1%  -> Top plus block clicker's value.
+
+%wmlb_top_minus_blocks_name_1%, -> Top minus block clicker's name. 
+%wmlb_top_minus_blocks_value_1% -> Top minus block clicker's value.
+
+%wmlb_top_games_name_1%         -> Name of the player that played most games.
+%wmlb_top_games_value_1%        -> Game amount of player that played most games.
 ```
 </details>
 
@@ -85,23 +91,41 @@ An extension to get top 10 statistics for Despical's minigame plugins.<br>
 <summary>Click to see placeholders for Murder Mystery plugin.</summary>
 
 ```
-%mmlb_top_killer_name_1%,  -> Top killer's name. 
-%mmlb_top_killer_value_1%  -> Top killer's kills.
+%mmlb_top_killer_name_1%,          -> Top killer's name. 
+%mmlb_top_killer_value_1%          -> Top killer's kills.
 
-%mmlb_top_deaths_name_1%   -> Most dead player's name.
-%mmlb_top_deaths_value_1%  -> Most dead player's deaths.
+%mmlb_top_deaths_name_1%           -> Most dead player's name.
+%mmlb_top_deaths_value_1%          -> Most dead player's deaths.
 
-%mmlb_top_wins_name_1%     -> Top winner's name.
-%mmlb_top_wins_value_1%    -> Top winner's wins.
+%mmlb_top_wins_name_1%             -> Top winner's name.
+%mmlb_top_wins_value_1%            -> Top winner's wins.
 
-%mmlb_top_loses_name_1%    -> Top loser's name.
-%mmlb_top_loses_value_1%   -> Top loser player's loses.
+%mmlb_top_wins_murderer_name_1%    > Name of top winner as Murderer.
+%mmlb_top_wins_murderer_value_1%   > Wins of top winner as Murderer.
 
-%mmlb_top_scorer_name__1%  -> Top scorer's name.
-%mmlb_top_scorer_value_1%  -> Top scorer's score.
+%mmlb_top_wins_detective_name_1%   -> Name of top winner as Detective.
+%mmlb_top_wins_detective_value_1%  -> Wins of top winner as Detective.
 
-%mmlb_top_games_name_1%     -> Name of the player that played most games.
-%mmlb_top_games_value_1%    -> Game amount of player that played most games.
+%mmlb_top_wins_hero_name_1%        -> Name of top winner as Hero.
+%mmlb_top_wins_hero_value_1%       -> Wins of top winner as Hero.
+
+%mmlb_top_loses_name_1%            -> Top loser's name.
+%mmlb_top_loses_value_1%           -> Top loser player's loses.
+
+%mmlb_top_loses_murderer_name_1%   -> Name of top loser as Murderer.
+%mmlb_top_loses_murderer_value_1%  -> Loses of top loser as Murderer.
+
+%mmlb_top_loses_detective_name_1%  -> Name of top loser as Detective.
+%mmlb_top_loses_detective_value_1% -> Loses of top loser as Detective.
+
+%mmlb_top_loses_hero_name_1%       -> Name of top loser as Hero.
+%mmlb_top_loses_hero_value_1%      -> Loses of top loser as Hero.
+
+%mmlb_top_scorer_name__1%          -> Top scorer's name.
+%mmlb_top_scorer_value_1%          -> Top scorer's score.
+
+%mmlb_top_games_name_1%            -> Name of the player that played most games.
+%mmlb_top_games_value_1%           -> Game amount of player that played most games.
 ```
 </details>
 
