@@ -33,8 +33,56 @@ public class MMLeaderboards extends Leaderboard {
             }
         }
 
+        if (id.contains("wins_murderer")) {
+            final String request = handlePlaceholderRequest(id, "top_wins_name_", "top_wins_value_", subId, StatsStorage.StatisticType.WINS_MURDERER);
+
+            if (request != null) {
+                return request;
+            }
+        }
+
+        if (id.contains("wins_detective")) {
+            final String request = handlePlaceholderRequest(id, "top_wins_name_", "top_wins_value_", subId, StatsStorage.StatisticType.WINS_DETECTIVE);
+
+            if (request != null) {
+                return request;
+            }
+        }
+
+        if (id.contains("wins_hero")) {
+            final String request = handlePlaceholderRequest(id, "top_wins_name_", "top_wins_value_", subId, StatsStorage.StatisticType.WINS_HERO);
+
+            if (request != null) {
+                return request;
+            }
+        }
+
         if (id.contains("loses")) {
             final String request = handlePlaceholderRequest(id, "top_loses_name_", "top_loses_value_", subId, StatsStorage.StatisticType.LOSES);
+
+            if (request != null) {
+                return request;
+            }
+        }
+
+        if (id.contains("loses_murderer")) {
+            final String request = handlePlaceholderRequest(id, "top_wins_name_", "top_wins_value_", subId, StatsStorage.StatisticType.LOSES_MURDERER);
+
+            if (request != null) {
+                return request;
+            }
+        }
+
+        if (id.contains("loses_detective")) {
+            final String request = handlePlaceholderRequest(id, "top_wins_name_", "top_wins_value_", subId, StatsStorage.StatisticType.LOSES_DETECTIVE);
+
+            if (request != null) {
+                return request;
+            }
+        }
+
+        if (id.contains("loses_hero")) {
+            final String request = handlePlaceholderRequest(id, "top_wins_name_", "top_wins_value_", subId, StatsStorage.StatisticType.LOSES_HERO);
 
             if (request != null) {
                 return request;
