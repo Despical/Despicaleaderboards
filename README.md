@@ -1,9 +1,11 @@
 # Despicaleaderboards
 An extension to get top 10 statistics for Despical's minigame plugins.<br>
 
-> **Note** This plugin depends on PlaceholderAPI plugin.
+> [!NOTE]  
+> This plugin depends on [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) plugin.
 
-> **Warning** Index starts from 1 and goes to 10. Replace the numbers with top positions.
+> [!WARNING]  
+> Index starts from 1 and goes to 10. Replace the numbers with top positions.
 
 ## Leaderboard Placeholders
 
