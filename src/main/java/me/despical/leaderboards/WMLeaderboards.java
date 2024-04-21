@@ -33,6 +33,14 @@ public class WMLeaderboards extends Leaderboard {
             }
         }
 
+        if (id.contains("longest_point_streak")) {
+            final String request = handlePlaceholderRequest(id, "top_longest_point_streak_name_", "top_longest_point_streak_value_", subId, StatsStorage.StatisticType.LONGEST_STREAK);
+
+            if (request != null) {
+                return request;
+            }
+        }
+
         if (id.contains("minus_blocks")) {
             final String request = handlePlaceholderRequest(id, "top_minus_blocks_name_", "top_minus_blocks_value_", subId, StatsStorage.StatisticType.MINUS_BLOCKS);
 
