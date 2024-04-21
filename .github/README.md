@@ -74,17 +74,20 @@ An extension to get top 10 statistics for Despical's minigame plugins.<br>
 <summary>Click to see placeholders for Whack Me plugin.</summary>
 
 ```
-%wmlb_top_scorer_name_1%,       -> Top scorer's name. 
-%wmlb_top_scorer_value_1%       -> Top scorer's score.
+%wmlb_top_scorer_name_1%,         -> Top scorer's name. 
+%wmlb_top_scorer_value_1%         -> Top scorer's score.
 
-%wmlb_top_plus_blocks_name_1%,  -> Top plus block clicker's name. 
-%wmlb_top_plus_blocks_value_1%  -> Top plus block clicker's value.
+%wmlb_top_longest_streak_name_1%  -> Top longest streak player's name.
+%wmlb_top_longest_streak_value_1% ->
 
-%wmlb_top_minus_blocks_name_1%, -> Top minus block clicker's name. 
-%wmlb_top_minus_blocks_value_1% -> Top minus block clicker's value.
+%wmlb_top_plus_blocks_name_1%,    -> Top plus block clicker's name. 
+%wmlb_top_plus_blocks_value_1%    -> Top plus block clicker's value.
 
-%wmlb_top_games_name_1%         -> Name of the player that played most games.
-%wmlb_top_games_value_1%        -> Game amount of player that played most games.
+%wmlb_top_minus_blocks_name_1%,   -> Top minus block clicker's name. 
+%wmlb_top_minus_blocks_value_1%   -> Top minus block clicker's value.
+
+%wmlb_top_games_name_1%           -> Name of the player that played most games.
+%wmlb_top_games_value_1%          -> Game amount of player that played most games.
 ```
 </details>
 
@@ -135,3 +138,11 @@ An extension to get top 10 statistics for Despical's minigame plugins.<br>
 This code is under [GPL-3.0 License](http://www.gnu.org/licenses/gpl-3.0.html)
 
 See the [LICENSE](https://github.com/Despical/Despicaleaderboards/blob/main/LICENSE) file for required notices and attributions.
+
+
+## Plugins' Download Links
+* [KOTL]()
+* [OITC]
+* [TNT Run]()
+* [Whack Me]()
+* [Murder Mystery]()
