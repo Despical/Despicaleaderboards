@@ -141,8 +141,8 @@ See the [LICENSE](https://github.com/Despical/Despicaleaderboards/blob/main/LICE
 
 
 ## Plugins' Download Links
-* [KOTL]()
-* [OITC]
-* [TNT Run]()
-* [Whack Me]()
-* [Murder Mystery]()
+* [KOTL](https://www.spigotmc.org/resources/king-of-the-ladder.80686/)
+* [OITC](https://www.spigotmc.org/resources/one-in-the-chamber.81185/)
+* [TNT Run](https://www.spigotmc.org/resources/tnt-run.83196/)
+* [Whack Me](https://www.spigotmc.org/resources/whack-me.104912/)
+* [Murder Mystery](https://www.spigotmc.org/resources/murder-mystery.109462/)
