@@ -78,7 +78,7 @@ An extension to get top 10 statistics for Despical's minigame plugins.<br>
 %wmlb_top_scorer_value_1%         -> Top scorer's score.
 
 %wmlb_top_longest_streak_name_1%  -> Top longest streak player's name.
-%wmlb_top_longest_streak_value_1% ->
+%wmlb_top_longest_streak_value_1% -> Top longest streak player's value.
 
 %wmlb_top_plus_blocks_name_1%,    -> Top plus block clicker's name. 
 %wmlb_top_plus_blocks_value_1%    -> Top plus block clicker's value.
